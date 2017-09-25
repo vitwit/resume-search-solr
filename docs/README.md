@@ -30,7 +30,7 @@ sudo -u solr service solr start/stop
 We are using python2.7 anyhow it how it doesn't matter. All you should have is latest version of JDK and these packages installed:
 * urllib2 (or urllib3)
 * simplejson
-* curl (for the purpose CRUD operations)[use this command ``` sudo apt-get install curl ```]
+* curl (for the purpose CRUD operations - use this command to install ``` sudo apt-get install curl ```)
 * JDK (latest version)
 
 *Done configuring*
