@@ -1,0 +1,37 @@
+<add> 
+   <doc> 
+      <field name = "id">001</field> 
+      <field name = "first name">f1</field> 
+      <field name = "last name">l1</field> 
+      <field name = "phone">9999999991</field> 
+      <field name = "city">City1</field> 
+   </doc>  
+   <doc> 
+      <field name = "id">002</field> 
+      <field name = "first name">f2</field> 
+      <field name = "last name">l2</field> 
+      <field name = "phone">9999999992</field> 
+      <field name = "city">City2</field> 
+   </doc>  
+   <doc> 
+      <field name = "id">003</field> 
+      <field name = "first name">f3</field> 
+      <field name = "last name">l3</field> 
+      <field name = "phone">9999999993</field> 
+      <field name = "city">City3</field> 
+   </doc>  
+   <doc> 
+      <field name = "id">004</field> 
+      <field name = "first name">f4</field> 
+      <field name = "last name">l4</field> 
+      <field name = "phone">9999999994</field> 
+      <field name = "city">City4</field> 
+   </doc>  
+   <doc> 
+      <field name = "id">005</field> 
+      <field name = "first name">f5</field> 
+      <field name = "last name">l5</field> 
+      <field name = "phone">9999999995</field> 
+      <field name = "city">City5</field> 
+   </doc>
+</add>
