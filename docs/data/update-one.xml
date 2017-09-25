@@ -1,0 +1,6 @@
+<add>
+  <doc>
+    <field name="id">005</field>
+    <field name="first_name" update="set">F*</field>
+  </doc>
+</add>

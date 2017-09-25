@@ -17,7 +17,7 @@ params = {
 
 # deleting some documents
 
-delete(common.delete, "data/delete.xml", params, common.headers["xml"])
+delete(common.delete, "data/delete-one.xml", params, common.headers["xml"])
 
 # deleting all the documents
 

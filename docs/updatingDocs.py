@@ -3,7 +3,7 @@ import requests
 from common import Common
 common = Common()
 
-def add(url, xmlFile, params, headers):
+def update(url, xmlFile, params, headers):
   data = open(xmlFile, "rb").read()
   res = requests.post(url, data=data, params=params, headers=headers)
   print("*"*100)
@@ -11,9 +11,11 @@ def add(url, xmlFile, params, headers):
   print("*"*100)
   print()
 
-# Adding some
 params = {
   "commit":"true"
 }
+# updating all the documents
+#update(common.update, "data/update-all.xml", params, common.headers["xml"])
 
-add(common.add, "data/people.xml", params, common.headers["xml"])
+# updating single document
+update(common.update, "data/update-one.xml", params, common.headers["xml"])

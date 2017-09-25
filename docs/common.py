@@ -10,6 +10,7 @@ class Common:
     self.select = self.base_url + self.core + '/select'
     self.update = self.base_url + self.core + '/update'
     self.delete = self.base_url + self.core + '/update'
+    self.add = self.base_url + self.core + '/update'
 
     self.headers = {
       "json":{"content-type" : "application/json" },
